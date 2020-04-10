@@ -25,7 +25,7 @@ items = ['Java', 'C', 'Python', 'C++', 'JavaScript', 'C#', 'PHP', 'SQL']
 data_list1 = [188, 166, 110, 108, 90, 80, 55, 45]
 data_list2 = [190, 160, 140, 100, 80, 70, 50, 40]
 bar1 = (
-    Bar(init_opts=opts.InitOpts(theme=ThemeType.DARK))
+    Bar(init_opts=opts.InitOpts(theme=ThemeType.ESSOS))
     .add_xaxis(items)
     .add_yaxis("2020年", data_list1)
     .add_yaxis("2019年", data_list2)
