@@ -43,9 +43,9 @@ list = os.listdir('./res/img')
 # print(list)
 for file in list:
     if os.path.splitext(file)[-1] == '.jpg':
-        print(os.path.splitext(file))       # file 是元组 -> ('1-1', '.jpg')
+        # print(os.path.splitext(file))       # file 是元组 -> ('1-1', '.jpg')
         print(os.path.splitext(file)[0])       # 取到文件名
-        print(os.path.splitext(file)[-1])       # 取到文件后缀
+        # print(os.path.splitext(file)[-1])       # 取到文件后缀
 
 # 遍历所有
 for root, dirs, files in os.walk("res"):
