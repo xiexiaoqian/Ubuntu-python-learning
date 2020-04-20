@@ -6,7 +6,7 @@ import xlsxwriter
 
 
 def set_formatt():
-    workbook = xlsxwriter.Workbook('./res/excel/excle_demo2.xlsx')
+    workbook = xlsxwriter.Workbook('./res/excel/excel_demo2.xlsx')
     worksheet = workbook.add_worksheet()
     # 基础格式
     fmt = workbook.add_format(
