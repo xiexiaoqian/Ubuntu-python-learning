@@ -1,5 +1,6 @@
 """
 中文文本情感分析
+pip3 install snownlp
 """
 from snownlp import SnowNLP
 
