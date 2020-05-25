@@ -1,7 +1,6 @@
 """
 Numpy_2
 """
-
 import numpy as np
 # 组合 ndarray 对象
 a = np.arange(10).reshape(2, -1)
@@ -12,7 +11,6 @@ b = np.array(np.where(a > 3))
 print(b)
 # 使用np.transpase方法转置
 print(np.transpose(b))
-
 # 创建一个[3, 5] 所有元素为 True 的数组
 a = np.ones((3, 5), dtype=bool)
 print(a)
